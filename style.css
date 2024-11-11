@@ -11,7 +11,7 @@ body {
 
 .profile h1 {
     color: #fdf7ef;
-    font-size: 70px;
+    font-size: 40px;
     padding-bottom: 0px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .button-image {
-    width: 500px;
+    width: 270px;
     height: auto;
     transition: transform 0.2s ease;
     cursor: pointer;
