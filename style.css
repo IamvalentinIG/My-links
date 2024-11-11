@@ -1,0 +1,56 @@
+body {
+    font-family: GT Proelium;
+    background-color: #57a6c3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.profile h1 {
+    color: #fdf7ef;
+    font-size: 70px;
+    padding-bottom: 0px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.link-images {
+    display: flex;
+    flex-direction: column; /* Aligne les images de liens verticalement */
+    gap: 0px;
+    margin-top: 20px;
+    align-items: center; /* Centre les liens verticalement */
+    position: relative;
+}
+
+.button-image {
+    width: 500px;
+    height: auto;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    border-radius: 12px;
+}
